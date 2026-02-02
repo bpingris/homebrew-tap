@@ -6,7 +6,7 @@ class Openclose < Formula
   head "https://github.com/bpingris/openclose.git", branch: "main"
   depends_on "odin" => :build
   def install
-    system "odin", "build", "src", "-out:openclose", "-o:speed"
+    system "odin", "build", "src", "-out:openclose", "-o:speed", "-define:VERSION=#{version}"
     bin.install "openclose"
   end
   test do
