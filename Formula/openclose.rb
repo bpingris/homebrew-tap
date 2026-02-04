@@ -1,7 +1,7 @@
 class Openclose < Formula
   desc "CLI tool for organizing software specifications and PRDs"
   homepage "https://github.com/bpingris/openclose"
-  url "https://github.com/bpingris/openclose.git", tag: "v0.5.0"
+  url "https://github.com/bpingris/openclose.git", tag: "v0.6.0"
   license "MIT"
   head "https://github.com/bpingris/openclose.git", branch: "main"
   depends_on "odin" => :build
